@@ -49,4 +49,9 @@ public class App {
     public void setLinkToDownload(URL linkToDownload) {
         this.linkToDownload = linkToDownload;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
